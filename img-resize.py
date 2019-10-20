@@ -1,3 +1,4 @@
 import os, sys
+import Image
 
-print ("Qual o local da imagem?")
+local = input("Qual o local da imagem?")
