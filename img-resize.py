@@ -1,7 +1,9 @@
 import os, sys
 from PIL import Image
 
-local = input("Qual o diretorio da imagem?")
+
+local = input("Qual o diretório da imagem?")
+
 
 im1 = Image.open(local)
 
