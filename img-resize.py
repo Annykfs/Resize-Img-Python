@@ -9,7 +9,7 @@ while(verify == 0):
   else:
     print("Informe uma imagem em (.jpg, .jpeg, ou .png)")
 
-if verify == 1:
+if verify == 12:
   im1 = Image.open(local)
 
   height = input("Qual a nova altura da imagem?")
